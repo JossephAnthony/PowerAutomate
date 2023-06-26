@@ -1,0 +1,10 @@
+if(equals(,'No'),int('1'),
+  if(equals(,'No'),int('2'),
+    if(equals(,'No'),int('3'),
+      if(equals(,'No'),int('4'),
+        if(equals(,'No'),int('5'),int('6')
+          )
+        )
+      )
+    )
+  )
