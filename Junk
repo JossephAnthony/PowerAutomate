@@ -1,0 +1,23 @@
+if(equals(outputs('Get_response_details')?['body/rf2d9c69672134a22a9270a5e1e2da15b'],'Sí'),
+    concat('Nombre: ',
+        outputs('Get_response_details')?['body/r8b47430d988940a3b6ff2c589cd6f5a2'],
+        ',',
+        decodeUriComponent('%0A'),
+        'DNI: ',
+        outputs('Get_response_details')?['body/r507c49434ff9484c893897cae7681fd2']
+    ),
+    null
+)
+
+//2
+
+if(equals(outputs('Get_response_details')?['body/r5d7f480031564551946fc8822d5134ba'],'Sí'),
+    concat('Nombre: ',
+        outputs('Get_response_details')?['body/rb2362fd6b6f641c1bd99f7b258bed538'],
+        ',',
+        decodeUriComponent('%0A'),
+        'DNI: ',
+        outputs('Get_response_details')?['body/rf6b7d4099e3c42889f55bcaed3fe1f8b']
+    ),
+    null
+)
