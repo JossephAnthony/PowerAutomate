@@ -1,0 +1,194 @@
+if(equals(outputs('Get_response_details')?['body/r46f09c7413cc46269fd9d1fe65da1ab8'],'Sí'),
+    concat('Nombre: ',
+        outputs('Get_response_details')?['body/ra40d3368508242c7b126c79c3d23130a'],
+        ',',
+        decodeUriComponent('%0A'),
+        'DNI: ',
+        outputs('Get_response_details')?['body/redff5f327ab841cc8e67a947c5ebefb5']
+    ),
+    null
+)
+
+if(equals(outputs('Get_response_details')?['body/r039ef6a2d60d4ae3b7d28d67dd0467ff'],'Sí'),
+    concat('Nombre: ',
+        outputs('Get_response_details')?['body/r8b47430d988940a3b6ff2c589cd6f5a2'],
+        ',',
+        decodeUriComponent('%0A'),
+        'DNI: ',
+        outputs('Get_response_details')?['body/r507c49434ff9484c893897cae7681fd2']
+    ),
+    null
+)
+
+if(equals(outputs('Get_response_details')?['body/r4005fec0407345a484a7a9b331d65641'],'Sí'),
+    concat('Nombre: ',
+        outputs('Get_response_details')?['body/r3a3fa4a6ab514811953361c313424b46'],
+        ',',
+        decodeUriComponent('%0A'),
+        'DNI: ',
+        outputs('Get_response_details')?['body/r2c3d288c57fc4316a8f9c0f09fd7635e']
+    ),
+    null
+)
+
+if(equals(outputs('Get_response_details')?['body/r3c631175481144f1b028c4a50cf278f0'],'Sí'),
+    concat('Nombre: ',
+        outputs('Get_response_details')?['body/r948abefe82504be1b4bc90dff1f9ff21'],
+        ',',
+        decodeUriComponent('%0A'),
+        'DNI: ',
+        outputs('Get_response_details')?['body/rf572aaa304e34c2cb07d789816afc144']
+    ),
+    null
+)
+
+
+if(equals(outputs('Get_response_details')?['body/r5be1240196904aeebfcaefa3d9f60ea8'],'Sí'),
+    concat('Nombre: ',
+        outputs('Get_response_details')?['body/ra20018a848084b688a73a64c36b4b0f4'],
+        ',',
+        decodeUriComponent('%0A'),
+        'DNI: ',
+        outputs('Get_response_details')?['body/r163db64e646143cf9ccbd6c2af83638c']
+    ),
+    null
+)
+
+if(equals(outputs('Get_response_details')?['body/r6581fc6f876a42ae9d8d8610f9b0bebc'],'Sí'),
+    concat('Nombre: ',
+        outputs('Get_response_details')?['body/r51c587cf62b947519b42921573139021'],
+        ',',
+        decodeUriComponent('%0A'),
+        'DNI: ',
+        outputs('Get_response_details')?['body/r9292a30183e548c2b1c3135ea9556e12']
+    ),
+    null
+)
+
+
+
+if(equals(outputs('Get_response_details')?['body/re356f9143d6848bf863918162cbdd743'],'Sí'),
+    concat('Nombre: ',
+        outputs('Get_response_details')?['body/r3e83a9353b6b499ab8fcc00ac9b0e1be'],
+        ',',
+        decodeUriComponent('%0A'),
+        'DNI: ',
+        outputs('Get_response_details')?['body/r4762143e6b444c7d89bd951674c192ff']
+    ),
+    null
+)
+
+
+if(equals(outputs('Get_response_details')?['body/rb08e47f1ae724520a0f89c3908b83925'],'Sí'),
+    concat('Nombre: ',
+        outputs('Get_response_details')?['body/rb125c1d856264549bff20130a23dcc4e'],
+        ',',
+        decodeUriComponent('%0A'),
+        'DNI: ',
+        outputs('Get_response_details')?['body/r7811a35e1ab7476ab4135309d0153e88']
+    ),
+    null
+)
+
+if(equals(outputs('Get_response_details')?['body/r0741b2bcd4784df5bbbde05649b1a79c'],'Sí'),
+    concat('Nombre: ',
+        outputs('Get_response_details')?['body/r2646f860f9e340c1abcc30a78bc73741'],
+        ',',
+        decodeUriComponent('%0A'),
+        'DNI: ',
+        outputs('Get_response_details')?['body/rd243765ecdde4347b2516c94a0a065a0']
+    ),
+    null
+)
+
+
+if(equals(outputs('Get_response_details')?['body/r039ef6a2d60d4ae3b7d28d67dd0467ff'],'Sí'),
+    concat('Nombre: ',
+        outputs('Get_response_details')?['body/r3c3f63a2efc64d0fa8b8a2ab8c85ca8c'],
+        ',',
+        decodeUriComponent('%0A'),
+        'DNI: ',
+        outputs('Get_response_details')?['body/r20bfc6de4b274317a1dfc61f70251d4d'],
+        ',',
+        decodeUriComponent('%0A'),
+        'Empresa: ',
+        outputs('Get_response_details')?['body/rf4fecd37eb734c4a9de42e89aba3c494']
+    ),
+    null
+)
+
+//2
+
+if(equals(outputs('Get_response_details')?['body/ra9333e9e49174b4f9e9853df572725c5'],'Sí'),
+    concat('Nombre: ',
+        outputs('Get_response_details')?['body/r420cd60aa0744a8191351f9475a74d1b'],
+        ',',
+        decodeUriComponent('%0A'),
+        'DNI: ',
+        outputs('Get_response_details')?['body/rf0aed5ddce72407ba36db460522b0c1e'],
+        ',',
+        decodeUriComponent('%0A'),
+        'Empresa: ',
+        outputs('Get_response_details')?['body/r17c1eec53f5846b18455288fd97c7584']
+    ),
+    null
+)
+
+//3
+if(equals(outputs('Get_response_details')?['body/r8fd8e2f4381748499adbfda440391442'],'Sí'),
+    concat('Nombre: ',
+        outputs('Get_response_details')?['body/re684a436837a4a6fa78efa8ca423536b'],
+        ',',
+        decodeUriComponent('%0A'),
+        'DNI: ',
+        outputs('Get_response_details')?['body/r8eb231d7471b47b0b6b56911a8ae1906'],
+        ',',
+        decodeUriComponent('%0A'),
+        'Empresa: ',
+        outputs('Get_response_details')?['body/r3557487f34c940be9bcbeeb5aced2828']
+    ),
+    null
+)
+
+//4
+if(equals(outputs('Get_response_details')?['body/r27ff451235c149cea4c3a763fdf1121b'],'Sí'),
+    concat('Nombre: ',
+        outputs('Get_response_details')?['body/rf0aac06619ad4b19865c3363ac8a6064'],
+        ',',
+        decodeUriComponent('%0A'),
+        'DNI: ',
+        outputs('Get_response_details')?['body/r377228898dbf4434b79750ded7527255'],
+        ',',
+        decodeUriComponent('%0A'),
+        'Empresa: ',
+        outputs('Get_response_details')?['body/r1449fb34cb20490f8ea6780edb1a355d']
+    ),
+    null
+)
+
+if(equals(outputs('Get_response_details')?['body/r013079b63fd34fd1971b56b7a4a3bfac'],'Sí'),
+    concat('Nombre: ',
+        outputs('Get_response_details')?['body/r36b762dc444b48ff8920931a6a83873f'],
+        ',',
+        decodeUriComponent('%0A'),
+        'DNI: ',
+        outputs('Get_response_details')?['body/ra77c5c994a0a4eeaa72ea9b79ff6c860'],
+        ',',
+        decodeUriComponent('%0A'),
+        'Empresa: ',
+        outputs('Get_response_details')?['body/rf4bef4eb5a25480d91c9790651d77259']
+    ),
+    null
+)
+
+
+if(equals(outputs('Get_response_details')?['body/ra9333e9e49174b4f9e9853df572725c5'],'Sí'),
+    concat('Nombre: ',
+        outputs('Get_response_details')?['body/rb2362fd6b6f641c1bd99f7b258bed538'],
+        ',',
+        decodeUriComponent('%0A'),
+        'DNI: ',
+        outputs('Get_response_details')?['body/rf6b7d4099e3c42889f55bcaed3fe1f8b']
+    ),
+    null
+)
