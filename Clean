@@ -1,0 +1,31 @@
+if(or(equals(outputs('Get_response_details')?['body/rf2d9c69672134a22a9270a5e1e2da15b'],'No'),empty(outputs('Get_response_details')?['body/rf2d9c69672134a22a9270a5e1e2da15b'])),int('1'),
+  if(equals(outputs('Get_response_details')?['body/r5d7f480031564551946fc8822d5134ba'],'No'),int('2'),
+    if(equals(outputs('Get_response_details')?['body/r4005fec0407345a484a7a9b331d65641'],'No'),int('3'),
+      if(equals(outputs('Get_response_details')?['body/r46f09c7413cc46269fd9d1fe65da1ab8'],'No'),int('4'),
+        if(equals(outputs('Get_response_details')?['body/r3c631175481144f1b028c4a50cf278f0'],'No'),int('5'),
+          if(equals(outputs('Get_response_details')?['body/r5be1240196904aeebfcaefa3d9f60ea8'],'No'),int('6'),
+            if(equals(outputs('Get_response_details')?['body/r6581fc6f876a42ae9d8d8610f9b0bebc'],'No'),int('7'),
+              if(equals(outputs('Get_response_details')?['body/re356f9143d6848bf863918162cbdd743'],'No'),int('8'),
+                if(equals(outputs('Get_response_details')?['body/rb08e47f1ae724520a0f89c3908b83925'],'No'),int('9'),
+                  if(equals(outputs('Get_response_details')?['body/r0741b2bcd4784df5bbbde05649b1a79c'],'No'),int('10'),int('11')
+                    )
+                  )
+                )
+              )
+            )
+          )
+        )
+      )
+    )
+  )
+
+if(or(equals(outputs('Get_response_details')?['body/r039ef6a2d60d4ae3b7d28d67dd0467ff'],'No'),empty(outputs('Get_response_details')?['body/r039ef6a2d60d4ae3b7d28d67dd0467ff'])),int('0'),
+  if(equals(outputs('Get_response_details')?['body/ra9333e9e49174b4f9e9853df572725c5'],'No'),int('1'),
+    if(equals(outputs('Get_response_details')?['body/r8fd8e2f4381748499adbfda440391442'],'No'),int('2'),
+      if(equals(outputs('Get_response_details')?['body/r27ff451235c149cea4c3a763fdf1121b'],'No'),int('3'),
+        if(equals(outputs('Get_response_details')?['body/r013079b63fd34fd1971b56b7a4a3bfac'],'No'),int('4'),int('5')
+          )
+        )
+      )
+    )
+  )
