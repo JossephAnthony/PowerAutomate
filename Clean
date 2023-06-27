@@ -29,3 +29,42 @@ if(or(equals(outputs('Get_response_details')?['body/r039ef6a2d60d4ae3b7d28d67dd0
       )
     )
   )
+
+
+//internacional
+if(or(equals(outputs('Get_response_details')?['body/r3d3bb69732c54614a556f10871cf1f1c'],'No'),empty(outputs('Get_response_details')?['body/r3d3bb69732c54614a556f10871cf1f1c'])),int('1'),
+  if(equals(outputs('Get_response_details')?['body/r9ae8a44856704737abd3e265f2153bb2'],'No'),int('2'),
+    if(equals(outputs('Get_response_details')?['body/r47e13c18c93d44a28739517b792cde65'],'No'),int('3'),
+      if(equals(outputs('Get_response_details')?['body/rdb0c1d436c234ea18bb6d7efc3332d0c'],'No'),int('4'),
+        if(equals(outputs('Get_response_details')?['body/r7553aad84adf4e5e98c447935927a009'],'No'),int('5'),int('6')
+          )
+        )
+      )
+    )
+  )
+
+
+if(or(equals(outputs('Get_response_details')?['body/r721dd3a3127345abb793e1ad251198d6'],'No'),empty(outputs('Get_response_details')?['body/r721dd3a3127345abb793e1ad251198d6'])),int('0'),
+  if(equals(outputs('Get_response_details')?['body/r44e511355abe4a068b7a03061bf39530'],'No'),int('1'),int('2')
+    )
+  )
+
+//nacional
+if(or(equals(outputs('Get_response_details')?['body/r7cf692f53908464d813dde31eb0b76b1'],'No'),empty(outputs('Get_response_details')?['body/r7cf692f53908464d813dde31eb0b76b1'])),int('1'),
+  if(equals(outputs('Get_response_details')?['body/r939bd4b37f1246f4a9fab4ead81ebb52'],'No'),int('2'),
+    if(equals(outputs('Get_response_details')?['body/r22a632991fbd45ab9c8ef9cd00124554'],'No'),int('3'),
+      if(equals(outputs('Get_response_details')?['body/rc02fa263ae984bea8bc7e0450633b4cf'],'No'),int('4'),
+        if(equals(outputs('Get_response_details')?['body/r1c8bfcdf82844f10bbbf5b761b773cac'],'No'),int('5'),int('6')
+          )
+        )
+      )
+    )
+  )
+
+
+if(or(equals(outputs('Get_response_details')?['body/r490f4bff9427479595def12614bca54c'],'No'),empty(outputs('Get_response_details')?['body/r490f4bff9427479595def12614bca54c'])),int('0'),
+  if(equals(outputs('Get_response_details')?['body/rd2ab732ed0b04d24822d6b9bb190041e'],'No'),int('1'),
+    if(equals(outputs('Get_response_details')?['body/r1c601a6c12e34687874c67959401dea9'],'No'),int('2'), int('3')
+      )
+    )
+  )
