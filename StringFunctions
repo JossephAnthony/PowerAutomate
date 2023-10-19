@@ -1,0 +1,14 @@
+Replace
+Index
+
+
+replace(replace(variables('varJefeArea'), '#EXT@CELEPSAO365.onmicrosoft.com', ''),'_','@')
+
+jjara_termochilca.com#EXT#@CELEPSAO365.onmicrosoft.com
+rmontalvo_termochilca.com#EXT#@CELEPSAO365.onmicrosoft.com
+myepez_termochilca.com#EXT#@CELEPSAO365.onmicrosoft.com
+mcarpio_termochilca.com#EXT#@CELEPSAO365.onmicrosoft.com
+esanes_termochilca.com#EXT#@CELEPSAO365.onmicrosoft.com
+
+Resultado final usado:
+replace(replace(variables('varJefeArea'), '#EXT#@CELEPSAO365.onmicrosoft.com', ''),'_','@')
