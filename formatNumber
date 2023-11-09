@@ -1,0 +1,1 @@
+formatNumber(triggerBody()['number'],'###,###,###.00')
