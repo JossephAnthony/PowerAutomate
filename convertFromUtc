@@ -1,0 +1,1 @@
+convertFromUtc(body('Run_a_Child_Flow_1_Request_Approval_to_TCh')?['completiondate'], 'SA Pacific Standard Time', 'dd/MM/yyyy h:mm tt')
