@@ -1,0 +1,4 @@
+if(equals(body('Update_item_1_StartWF_=_No')?['Category']?['Value'],'Pagos al exterior'),if(equals(body('Update_item_1_StartWF_=_No')?['Compa_x00f1__x00ed_a'],'Termochilca'),parameters('Analista de Impuestos TCh (jasm_AnalistadeImpuestosTCh)'),parameters('Senior de Impuestos (jasm_SeniordeImpuestos)')),body('Update_item_1_StartWF_=_No')?['Aprobadorpagourgente']?['Email'])
+
+
+if(equals(triggerBody()?['Category']?['Value'],'Pagos al exterior'),if(equals(triggerBody()?['Compa_x00f1__x00ed_a']?['Value'],'Termochilca'),parameters('Analista de Impuestos TCh (jasm_AnalistadeImpuestosTCh)'),parameters('Senior de Impuestos (jasm_SeniordeImpuestos)'))),triggerBody()?['Aprobadorpagourgente']?['Claims'])
