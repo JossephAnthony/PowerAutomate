@@ -2,3 +2,9 @@ if(equals(body('Update_item_1_StartWF_=_No')?['Category']?['Value'],'Pagos al ex
 
 
 if(equals(triggerBody()?['Category']?['Value'],'Pagos al exterior'),if(equals(triggerBody()?['Compa_x00f1__x00ed_a']?['Value'],'Termochilca'),parameters('Analista de Impuestos TCh (jasm_AnalistadeImpuestosTCh)'),parameters('Senior de Impuestos (jasm_SeniordeImpuestos)'))),triggerBody()?['Aprobadorpagourgente']?['Claims'])
+
+// Update item 0 nuevo
+if(And(equal(triggerBody()?['Category']?['Value'],'Pagos a proveedores con OC'),equals(triggerBody()?['Programaelpago']?['Value'],'Pago regular (miércoles)')),'Aprobado','Pendiente de aprobación')
+
+//No hay usuario del servicio
+if(And(equal(triggerBody()?['Category']?['Value'],'Pagos a proveedores sin OC'),equal(triggerBody()?['Category']?['Value'],'Otros pagos a terceros')),'',)
